@@ -8,6 +8,9 @@
 
 	#button, #refresh-button {
 		margin: 10px 5px !important;
+	}
+
+	.inner-div {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
