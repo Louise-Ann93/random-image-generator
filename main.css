@@ -35,12 +35,12 @@
 }
 
 #button:hover {
-	background-color: cornflowerblue;
+	background-color: #CCCCFF;
 	color: black;
 }
 
 #refresh-button:hover {
-	background-color: lightpink;
+	background-color: #F8C8DC;
 	color: black;
 }
 
