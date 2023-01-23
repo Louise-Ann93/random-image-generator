@@ -11,20 +11,27 @@
 	justify-content: center;
 }
 
-#image {
-	display: none;
-	max-width: 500px;
-}
-
-#button {
-	margin: 20px;
+#button, #refresh-button {
+	margin: 20px 10px;
+	width: 175px;
 	height: 35px;
 	border-radius: 25px;
 	border-color: white;
+	font-family: Tahoma, sans-serif;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	box-shadow: 0 5px #999;
+}
+
+#button {
 	background-color: darkslateblue;
 	color: white;
-	width: 150px;
-	font-family: Tahoma, sans-serif;
+}
+
+#refresh-button {
+	background-color: hotpink;
+	color: white;
 }
 
 #button:hover {
@@ -32,23 +39,23 @@
 	color: black;
 }
 
-#refresh-button {
-	width: 150px;
-	height: 35px;
-	border-radius: 25px;
-	background-color: hotpink;
-	border-color: white;
-	color: white;
-	font-family: Tahoma, sans-serif;
+#refresh-button:hover {
+	background-color: lightpink;
+	color: black;
 }
 
-#refresh-button:hover {
-	background-color: pink;
-	color: black;
+#button:active, #refresh-button:active {
+	box-shadow: 0 2px #666;
+	transform: translateY(4px);
 }
 
 #count {
 	font-family: Tahoma, sans-serif;
 	font-size: 18px;
 	margin: 10px;
+}
+
+#image {
+	display: none;
+	max-width: 500px;
 }
