@@ -15,3 +15,40 @@
 	display: none;
 	max-width: 500px;
 }
+
+#button {
+	margin: 20px;
+	height: 35px;
+	border-radius: 25px;
+	border-color: white;
+	background-color: darkslateblue;
+	color: white;
+	width: 150px;
+	font-family: Tahoma, sans-serif;
+}
+
+#button:hover {
+	background-color: cornflowerblue;
+	color: black;
+}
+
+#refresh-button {
+	width: 150px;
+	height: 35px;
+	border-radius: 25px;
+	background-color: hotpink;
+	border-color: white;
+	color: white;
+	font-family: Tahoma, sans-serif;
+}
+
+#refresh-button:hover {
+	background-color: pink;
+	color: black;
+}
+
+#count {
+	font-family: Tahoma, sans-serif;
+	font-size: 18px;
+	margin: 10px;
+}
